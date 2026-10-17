@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 1. TEXTVIEW: TIÊU ĐỀ MÀN HÌNH -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="QUẢN LÝ THÔNG TIN SINH VIÊN"
+            android:textColor="#34B469"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- 2. CARDVIEW: CHỨA FORM THÔNG TIN TỔNG HỢP -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#243342"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- 3. EDITTEXT: NHẬP HỌ TÊN -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và tên sinh viên:"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:hint="Nhập họ và tên"
+                    android:text="Lê Thế Duy"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#808080" />
+
+                <!-- 4. EDITTEXT: NHẬP ĐIỂM GPA -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Điểm GPA tích lũy:"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtGpaScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:hint="Nhập GPA (0.0 - 4.0)"
+                    android:inputType="numberDecimal"
+                    android:text="3.75"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#808080" />
+
+                <!-- 5. RADIOGROUP & RADIOBUTTON: CHỌN GIỚI TÍNH -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Giới tính:"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rgGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Nam"
+                        android:textColor="#FFFFFF" />
+
+                    <RadioButton
+                        android:id="@+id/rbFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:text="Nữ"
+                        android:textColor="#FFFFFF" />
+                </RadioGroup>
+
+                <!-- 6. SWITCH: BẬT/TẮT NHẬN THÔNG BÁO -->
+                <com.google.android.material.usematerial3.MaterialSwitch
+                    android:id="@+id/swNotification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:checked="true"
+                    android:text="Nhận thông báo học tập qua Email"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <!-- 7. BUTTON: NÚT XÁC NHẬN -->
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#34B469"
+                    android:text="Xác Nhận Thông Tin"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 8. TEXTVIEW: KẾT QUẢ XUẤT RA -->
+        <TextView
+            android:id="@+id/tvDisplayResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#1E1E1E"
+            android:padding="12dp"
+            android:textColor="#E0E0E0"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+</ScrollView>

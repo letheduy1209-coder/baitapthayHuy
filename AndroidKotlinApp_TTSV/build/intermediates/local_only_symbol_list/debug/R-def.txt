@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable anhdaidien
+drawable ic_avatar
+id btnCallPhone
+id btnClose
+id btnOpenEditProfile
+id btnOpenWeb
+id btnSendEmail
+id edtGpa
+id edtName
+id imgAvatar
+id tvGpaBadge
+id tvReceivedInfo
+id tvResultLog
+id tvStudentDetails
+id tvStudentEmail
+id tvStudentId
+id tvStudentName
+layout activity_edit_profile
+layout activity_main

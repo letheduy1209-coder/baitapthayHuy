@@ -1,0 +1,133 @@
+version 2
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 206 ciObject found
+instanceKlass java/util/HashMap
+ciInstanceKlass java/util/SequencedMap 1 1 157 11 100 12 1 1 1 11 100 12 1 1 1 11 100 12 1 1 1 100 1 11 12 1 1 100 1 10 12 1 1 11 12 1 1 11 12 1 1 100 1 10 12 100 1 10 12 1 100 1 10 100 1 10 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1 1 8 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 8 1
+ciInstanceKlass java/util/LinkedHashMap 1 1 386 9 7 12 1 1 1 9 12 1 1 9 12 1 9 7 12 1 1 9 12 1 10 7 12 1 1 1 10 12 1 1 10 12 1 1 9 12 1 9 12 1 1 9 12 1 10 12 1 1 100 1 10 10 12 1 1 10 12 1 10 12 1 1 9 12 1 1 9 12 1 10 12 1 1 10 100 12 1 1 1 10 12 1 10 12 1 10 12 10 12 1 1 10 100 12 1 1 1 10 12 1 1 10 12 1 1 9 7 1 10 12 1 10 12 1 1 9 12 1 1 7 1 10 12 1 7 1 100 1 10 10 12 1 1 10 12 1 1 9 12 1 1 100 1 10 100 1 10 12 1 9 12 1 100 1 10 100 1 10 11 100 12 1 1 1 100 1 10 11 100 12 1 1 100 1 100 1 10 8 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 10 12 1 1 10 100 1 10 12 1 100 1 1 1 1 5 0 1 1 1 3 1 3 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 100 1 100 1 100 1 1 1 1 1 100 1 100 1 1 1 1 1 1 1 1 1
+instanceKlass org/gradle/internal/classloader/ClassLoaderUtils$AbstractClassLoaderLookuper
+instanceKlass org/gradle/internal/classloader/ClassLoaderUtils$ClassLoaderPackagesFetcher
+instanceKlass org/gradle/internal/classloader/ClassLoaderUtils$ClassDefiner
+instanceKlass org/gradle/internal/classloader/ClassLoaderUtils
+instanceKlass org/gradle/launcher/bootstrap/ExecutionListener
+instanceKlass org/gradle/launcher/bootstrap/EntryPoint
+instanceKlass  @bci java/io/FilePermissionCollection add (Ljava/security/Permission;)V 68 <appendix> argL0 ; # java/io/FilePermissionCollection$$Lambda+0x000000010009c550
+instanceKlass java/security/Security$1
+instanceKlass jdk/internal/access/JavaSecurityPropertiesAccess
+instanceKlass java/util/concurrent/ConcurrentHashMap$MapEntry
+instanceKlass java/io/FileInputStream$1
+instanceKlass  @bci java/security/Security <clinit> ()V 9 <appendix> argL0 ; # java/security/Security$$Lambda+0x000000010009ac00
+instanceKlass java/security/Security
+instanceKlass sun/security/util/SecurityProperties
+instanceKlass sun/security/util/FilePermCompat
+instanceKlass java/io/FilePermission$1
+instanceKlass jdk/internal/access/JavaIOFilePermissionAccess
+instanceKlass sun/net/www/MessageHeader
+instanceKlass java/net/URLConnection
+instanceKlass java/net/URLClassLoader$1
+instanceKlass org/gradle/internal/agents/InstrumentingClassLoader
+instanceKlass jdk/internal/jimage/ImageLocation
+instanceKlass jdk/internal/jimage/decompressor/Decompressor
+instanceKlass jdk/internal/jimage/ImageStringsReader
+instanceKlass jdk/internal/jimage/ImageStrings
+instanceKlass jdk/internal/jimage/ImageHeader
+instanceKlass jdk/internal/jimage/NativeImageBuffer$1
+instanceKlass jdk/internal/jimage/NativeImageBuffer
+instanceKlass jdk/internal/jimage/BasicImageReader$1
+instanceKlass jdk/internal/jimage/BasicImageReader
+instanceKlass jdk/internal/jimage/ImageReader
+instanceKlass jdk/internal/jimage/ImageReaderFactory$1
+instanceKlass java/nio/file/FileSystems$DefaultFileSystemHolder$1
+instanceKlass java/nio/file/FileSystems$DefaultFileSystemHolder
+instanceKlass java/nio/file/FileSystems
+instanceKlass java/nio/file/Paths
+instanceKlass jdk/internal/jimage/ImageReaderFactory
+instanceKlass jdk/internal/module/SystemModuleFinders$SystemImage
+instanceKlass jdk/internal/module/SystemModuleFinders$SystemModuleReader
+instanceKlass java/lang/module/ModuleReader
+instanceKlass jdk/internal/loader/BuiltinClassLoader$5
+instanceKlass jdk/internal/loader/BuiltinClassLoader$2
+instanceKlass jdk/internal/module/Resources
+instanceKlass java/io/RandomAccessFile$1
+instanceKlass org/gradle/api/Action
+instanceKlass org/gradle/internal/IoActions
+instanceKlass java/util/Properties$LineReader
+instanceKlass  @bci java/util/regex/Pattern union (Ljava/util/regex/Pattern$CharPredicate;Ljava/util/regex/Pattern$CharPredicate;Z)Ljava/util/regex/Pattern$CharPredicate; 6 <appendix> member <vmtarget> ; # java/util/regex/Pattern$$Lambda+0x0000000100094868
+instanceKlass  @bci java/util/regex/Pattern Range (II)Ljava/util/regex/Pattern$CharPredicate; 23 <appendix> member <vmtarget> ; # java/util/regex/Pattern$$Lambda+0x00000001000943c0
+instanceKlass java/util/regex/Pattern$BitClass
+instanceKlass java/util/regex/Pattern$TreeInfo
+instanceKlass  @bci java/util/regex/Pattern negate (Ljava/util/regex/Pattern$CharPredicate;)Ljava/util/regex/Pattern$CharPredicate; 1 <appendix> member <vmtarget> ; # java/util/regex/Pattern$$Lambda+0x0000000100093278
+instanceKlass  @bci java/util/regex/CharPredicates ASCII_WORD ()Ljava/util/regex/Pattern$BmpCharPredicate; 0 <appendix> argL0 ; # java/util/regex/CharPredicates$$Lambda+0x0000000100092ff8
+instanceKlass org/gradle/internal/InternalTransformer
+instanceKlass org/gradle/util/internal/GUtil
+instanceKlass  @bci org/gradle/api/internal/classpath/DefaultModuleRegistry loadOptionalModule (Ljava/lang/String;)Lorg/gradle/api/internal/classpath/Module; 4 <appendix> member <vmtarget> ; # org/gradle/api/internal/classpath/DefaultModuleRegistry$$Lambda+0x00000001000cce80
+instanceKlass  @cpi org/gradle/api/internal/classpath/DefaultModuleRegistry 421 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x00000001000c8400
+instanceKlass org/gradle/internal/classpath/TransformedClassPath
+instanceKlass java/util/LinkedHashMap$LinkedHashIterator
+instanceKlass java/util/Collections$EmptyIterator
+instanceKlass java/util/Collections$1
+instanceKlass org/gradle/api/internal/classpath/DefaultModuleRegistry$DefaultModule
+instanceKlass java/util/regex/IntHashSet
+instanceKlass java/util/regex/Matcher
+instanceKlass java/util/regex/MatchResult
+instanceKlass  @bci java/util/regex/Pattern DOT ()Ljava/util/regex/Pattern$CharPredicate; 0 <appendix> argL0 ; # java/util/regex/Pattern$$Lambda+0x0000000100090528
+instanceKlass  @bci java/util/regex/CharPredicates ASCII_DIGIT ()Ljava/util/regex/Pattern$BmpCharPredicate; 0 <appendix> argL0 ; # java/util/regex/CharPredicates$$Lambda+0x000000010008fe60
+instanceKlass java/util/regex/Pattern$BmpCharPredicate
+instanceKlass java/util/regex/Pattern$CharPredicate
+instanceKlass java/util/regex/CharPredicates
+instanceKlass java/util/regex/ASCII
+instanceKlass java/util/regex/Pattern$Node
+instanceKlass java/util/regex/Pattern
+instanceKlass org/gradle/internal/service/CachingServiceLocator
+instanceKlass java/io/Reader
+instanceKlass java/lang/Readable
+instanceKlass org/gradle/internal/service/DefaultServiceLocator
+instanceKlass org/gradle/internal/service/ServiceLocator
+instanceKlass org/gradle/internal/classloader/DefaultClassLoaderFactory
+instanceKlass org/gradle/api/internal/classpath/ManifestUtil
+instanceKlass org/gradle/internal/Cast
+instanceKlass java/util/AbstractList$Itr
+instanceKlass org/gradle/internal/classpath/DefaultClassPath$ImmutableUniqueList$Builder
+instanceKlass org/gradle/internal/classloader/ClassLoaderSpec
+instanceKlass org/gradle/internal/classloader/ClassLoaderVisitor
+instanceKlass org/gradle/internal/classpath/DefaultClassPath
+instanceKlass org/gradle/internal/classpath/ClassPath
+instanceKlass org/gradle/internal/installation/GradleInstallation$1
+instanceKlass java/io/FileFilter
+instanceKlass org/gradle/internal/installation/GradleInstallation
+instanceKlass java/net/URI$Parser
+instanceKlass org/gradle/internal/classloader/ClasspathUtil
+instanceKlass org/gradle/internal/installation/CurrentGradleInstallationLocator
+instanceKlass org/gradle/internal/installation/CurrentGradleInstallation
+instanceKlass  @bci org/gradle/api/internal/classpath/DefaultModuleRegistry <clinit> ()V 0 <appendix> argL0 ; # org/gradle/api/internal/classpath/DefaultModuleRegistry$$Lambda+0x00000001000c4ce0
+instanceKlass  @cpi org/gradle/api/internal/classpath/DefaultModuleRegistry 504 form vmentry <vmtarget> ; # java/lang/invoke/LambdaForm$DMH+0x00000001000c8000
+instanceKlass org/gradle/api/specs/Spec
+instanceKlass org/gradle/api/internal/classpath/Module
+instanceKlass org/gradle/api/internal/classpath/DefaultModuleRegistry
+instanceKlass org/gradle/cache/GlobalCache
+instanceKlass org/gradle/api/internal/DefaultClassPathProvider
+instanceKlass org/gradle/api/internal/ClassPathProvider
+instanceKlass org/gradle/api/internal/DefaultClassPathRegistry
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000001000c3800
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000001000c3400
+# instanceKlass java/lang/invoke/LambdaForm$MH+0x00000001000c3000
+instanceKlass org/gradle/internal/classloader/ClassLoaderHierarchy
+instanceKlass org/gradle/internal/classloader/ClassLoaderFactory
+instanceKlass org/gradle/api/internal/ClassPathRegistry
+instanceKlass org/gradle/api/internal/classpath/ModuleRegistry
+instanceKlass org/gradle/launcher/bootstrap/ProcessBootstrap
+instanceKlass sun/security/util/ManifestEntryVerifier
+instanceKlass jdk/internal/misc/ThreadTracker
+instanceKlass java/util/jar/JarFile$ThreadTrackHolder
+instanceKlass jdk/internal/misc/PreviewFeatures
+instanceKlass jdk/internal/misc/MainMethodFinder
+instanceKlass org/gradle/launcher/GradleMain
+instanceKlass sun/nio/cs/MS1252$Holder
+instanceKlass java/nio/charset/CharsetDecoder
+instanceKlass sun/nio/cs/ArrayDecoder
+instanceKlass sun/launcher/LauncherHelper
+instanceKlass jdk/internal/vm/PostVMInitHook$1
+instanceKlass jdk/internal/util/EnvUtils
+instanceKlass jdk/internal/vm/PostVMInitHook$2
+instanceKlass jdk/internal/vm/PostVMInitHook

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.androidkotlinapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.androidkotlinapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-merged_res-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-merged_res-31:\\drawable_ic_avatar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-main-33:\\drawable\\ic_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-merged_res-31:\\drawable_anhdaidien.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-main-33:\\drawable\\anhdaidien.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-merged_res-31:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.5\\com.example.androidkotlinapp-main-33:\\layout\\activity_edit_profile.xml"
+    }
+]
