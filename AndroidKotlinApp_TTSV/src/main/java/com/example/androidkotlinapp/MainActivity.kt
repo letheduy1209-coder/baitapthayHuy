@@ -14,11 +14,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Sự kiện khi bấm nút "Xác Nhận Thông Tin"
+        // Bắt sự kiện click Button -> Thay đổi nội dung TextView
         binding.btnSubmit.setOnClickListener {
             val name = binding.edtFullName.trimmedText()
             val gpa = binding.edtGpaScore.trimmedText().toDoubleOrNull()
 
+            // Validate dữ liệu đầu vào
             if (name.isEmpty()) {
                 binding.edtFullName.error = "Vui lòng nhập họ tên"
                 return@setOnClickListener
@@ -29,22 +30,20 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Lấy giá trị từ RadioButton (Giới tính)
             val gender = if (binding.rbMale.isChecked) "Nam" else "Nữ"
-
-            // Lấy trạng thái từ Switch
             val isNotiEnabled = if (binding.swNotification.isChecked) "Đã bật" else "Đã tắt"
 
-            // Hiển thị thông tin tổng hợp lên TextView kết quả
+            // Thay đổi nội dung trực tiếp trên TextView (tvDisplayResult)
             binding.tvDisplayResult.text = """
-                === THÔNG TIN ĐÃ XÁC NHẬN ===
+                === KẾT QUẢ ĐÃ THAY ĐỔI TRÊN TEXTVIEW ===
                 • Họ tên: $name
                 • Giới tính: $gender
                 • Điểm GPA: $gpa (${gpa.toAcademicRanking()})
-                • Nhận thông báo: $isNotiEnabled
+                • Thông báo Email: $isNotiEnabled
+                • Cập nhật lúc: System OK!
             """.trimIndent()
 
-            toast("Đã xử lý thông tin thành công!")
+            toast("Đã cập nhật TextView thành công!")
         }
     }
 }
